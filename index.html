@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff8f70">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 16px;
+            text-align: center;
+            color: white;
+            background-color: #25252D;
+        }
+
+        .attribution a {
+            color: hsl(355, 100%, 74%);
+            /* color: #ff6347; */
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-top">
+        <header class="header " id="headerEventsDelegate">
+            <div class="header__container">
+                <nav class="main-nav">
+                    <figure>
+                        <img src="images/logo.svg" alt="logo" />
+                    </figure>
+                    <figure class="menu-icon">
+                        <img src="images/icon-hamburger.svg" id="hamburguerIcon" alt="icon-hamburguer"
+                            class="menu-icon" />
+                    </figure>
+                    <ul class="main-nav__list" id="mainNavList">
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link btnSubMenu">Products
+                                <img class="iconArrow" src="./images/icon-arrow-light.svg" alt="iconoFlecha">
+                            </a>
+                            <ul>
+                                <li><a href="">Overview</a></li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Marketplace</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Integrations</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-nav__item ">
+                            <a href="#" class="main-nav__link btnSubMenu">Company
+                                <img class="iconArrow" src="./images/icon-arrow-light.svg" alt="iconoFlecha">
+                            </a>
+                            <ul>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Team</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link btnSubMenu">Contact
+                                <img class="iconArrow" src="./images/icon-arrow-light.svg" alt="iconoFlecha">
+                            </a>
+                            <ul>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Newsletter</a></li>
+                                <li><a href="">LinkedIn</a></li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <div class="header__btns">
+                            <a href="#" class="btn"> Login</a>
+                            <a href="#" class="btn">Sing-up</a>
+                        </div>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+        <section class="section-top__welcome">
+            <h2 class="section-top__title">
+                A modern publishing platform
+
+            </h2>
+            <p class="section-top__subtitle">
+                Grow your audience and build your online brand
+            </p>
+            <div class="section-top__btns">
+                <a href="#" class="btn"> Start for free</a>
+                <a href="#" class="btn"> Learn More</a>
+            </div>
+        </section>
+    </section>
+
+
+    <main class="container">
+        <section class="designed">
+            <h2 class="designed__title">Designed for the future</h2>
+            <article class="card">
+                <picture class="card__picture">
+                    <source media="(min-width: 1200px)" srcset="images/illustration-editor-desktop.svg" />
+                    <img src="images/illustration-editor-mobile.svg" alt="editor" />
+                </picture>
+
+                <div class="card__description">
+                    <h3>Introducing an extensible editor</h3>
+                    <p>
+                        Introducing an extensible editor Blogr features an
+                        exceedingly intuitive interface which lets you focus
+                        on one thing: creating content. The editor supports
+                        management of multiple blogs and allows easy
+                        manipulation of embeds such as images, videos, and
+                        Markdown. Extensibility with plugins and themes
+                        provide easy ways to add functionality or change the
+                        looks of a blog.
+                    </p>
+                    <h3>Robust content management</h3>
+                    <p>
+                        Flexible content management enables users to easily
+                        move through posts. Increase the usability of your
+                        blog by adding customized categories, sections,
+                        format, or flow. With this functionality, you’re in
+                        full control.
+                    </p>
+
+                </div>
+            </article>
+        </section>
+        <!-- ------------ -->
+        <section class="infrastructure">
+            <div class="infrastructure-container">
+                <picture class="infrastructure__picture">
+                    <img src="images/illustration-phones.svg" alt="editor" />
+                </picture>
+                <div class="infrastructure__description">
+                    <h3>State of the Art Infrastructure</h3>
+                    <p>
+                        With reliability and speed in mind, worldwide data
+                        centers provide the backbone for ultra-fast
+                        connectivity. This ensures your site will load
+                        instantly, no matter where your readers are, keeping
+                        your site competitive.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ------------ -->
+        <section class="characters">
+            <article class="card">
+                <picture class="card__picture">
+                    <img src="images/illustration-laptop-mobile.svg" alt="" />
+                </picture>
+                <div class="card__description">
+                    <h3>Free, open, simple</h3>
+                    <p>
+                        Blogr is a free and open source application backed
+                        by a large community of helpful developers. It
+                        supports features such as code syntax highlighting,
+                        RSS feeds, social media integration, third-party
+                        commenting tools, and works seamlessly with Google
+                        Analytics. The architecture is clean and is
+                        relatively easy to learn.
+                    </p>
+                    <h3>Powerful tooling</h3>
+                    <p>
+                        Batteries included. We built a simple and
+                        straightforward CLI tool that makes customization
+                        and deployment a breeze, but capable of producing
+                        even the most complicated sites.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__container">
+            <img src="images/logo.svg" alt="logo" />
+            <div class="footer__product">
+                <h4 class="footer__subtitle">Product</h4>
+                <ul>
+                    <li>Overview</li>
+                    <li>Pricing</li>
+                    <li>Marketplace</li>
+                    <li>Features</li>
+                    <li>Integrations</li>
+                </ul>
+            </div>
+            <div class="footer__company">
+                <h4 class="footer__subtitle">Company</h4>
+                <ul>
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__subtitle">Connect</h4>
+                <ul>
+                    <li>Contact</li>
+                    <li>Newsletter</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <script src="./js/index.js"></script>
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP" target="_blank"
+            rel="noreferrer noopener">Frontend
+            Mentor</a>. Coded by <a href="https://github.com/mitox13" target="_blank" rel="noreferrer noopener">
+            mitox13</a>.
+    </div>
+</body>
+
+</html>
